@@ -6,7 +6,7 @@ by Jakolien & Michael
 * **Jupyter notebook** following PEP8 designed for data science/technical audience.
 * **Python script** for generating (takes .csv as argument and saves the model locally)  and running your model from the terminal (takes test.csv and model as arguments and outputs accuracy and predictions as .csv). 
 
-## Things 
+## Things to Think About
 1. Check for data imbalance! 
 2. What would be the right performance metric - precision, recall, accuracy, F1 score, or something else? (Check TPR?)
 3. Try different (at least 3) machine learning algorithms to check which performs best on the problem at hand.
@@ -37,7 +37,7 @@ by Jakolien & Michael
     * Finalize deliverables
 * End: Thursday, 05/11/2020, 09:00am
 
-## Way of working
+## Way of Working
 
 * Working on GitHub-Repo
 * Create and work within branches to fullfil tasks (e.g. initial EDA)
@@ -53,7 +53,7 @@ Business case | People are willing to pay money for the knowledge if they succee
 * State --> Classification problem
 * Financial gain & Extra --> Regression problem
 
-###
+### Raw Idea
 
 * Perspective: Financial gain for Kickstarter (KS)
 * Before starting a project on KS people want to know how likly it is that the project idea succeeds.
