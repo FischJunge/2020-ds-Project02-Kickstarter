@@ -13,28 +13,44 @@ by Jakolien & Michael
 
 ## Time Line
 
-* Start: Friday, 30/10/2020, 10:00am
-        * Preparing data sets | Jakolien & Michael
-        * Understanding columns | Jakolien & Michael
-        * Gather domain knowledge (How does Kickstarter work?) | Jakolien & Michael
-        * Brainstorming on business (use-)case | Jakolien & Michael
-* Weekend
-    * Start data cleaning | Jakolien
-    * Gather domain knowledge & Look for missing column descriptions | Michael
-* Monday
-    * Initial data cleaning | Jakolien
-    * Initial EDA | Michael
-    * Finalize business (use-)case (e.g. stakeholder, what to predict, scenarios, select the evaluation metrics) | Jakolien & Michael
-    * Final data cleaning | Michael
-    * Finalize full EDA | Jakolien
-* Tuesday
-    * Set up model
-    * Fianalize model
-* Wednesday
-    * Presentation
-    * Python script
-    * Tidy up Jup NB
-    * Finalize deliverables
+### Start: Friday, 30/10/2020, 10:00am
+
+Task | Task owner | Status
+---- | ---------- | ------
+Preparing data sets | J & M | Done
+Understanding columns | J & M | Done
+Gather domain knowledge (How does Kickstarter work?) | J & M | Done
+Brainstorming on business (use-)case | J & M | Done
+
+### Weekend
+
+Task | Task owner | Status
+---- | ---------- | ------
+Start data cleaning | J | WIP
+Gather domain knowledge & Look for missing column descriptions | M | Done
+
+### Monday
+Task | Task owner | Status
+---- | ---------- | ------
+Initial data cleaning | J | Done
+Initial EDA | M | WIP
+Finalize business (use-)case (e.g. stakeholder, what to predict, scenarios, select the evaluation metrics) | J & M | WIP
+Final data cleaning | J | WIP
+Finalize full EDA | J | -
+
+### Tuesday
+Task | Task owner | Status
+---- | ---------- | ------
+Set up model | - | -
+Fianalize model | - | -
+
+### Wednesday
+Task | Task owner | Status
+---- | ---------- | ------
+Presentation | - | - 
+Python script | - | -
+Tidy up Jup NB | - |
+Finalize deliverables | - | -
 * End: Thursday, 05/11/2020, 09:00am
 
 ## Way of Working
@@ -51,12 +67,12 @@ Stakeholder perspective | Kickstarter
 Business case | People are willing to pay money for the knowledge if they succeed or fail with their project idea.
 
 * State --> Classification problem
-* Financial gain & Extra --> Regression problem
+* Financial gain & extra --> Regression problem
 
 ### Raw Idea
 
 * Perspective: Financial gain for Kickstarter (KS)
-* Before starting a project on KS people want to know how likly it is that the project idea succeeds.
+* Before starting a project on KS people want to know how likely it is that the project idea succeeds.
 * They might be willing to pay for that knowledge.
 * How much is it worth?
     * Financially evaluate the difference between sccueeding and failing projects per domain
