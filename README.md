@@ -1,8 +1,9 @@
 # 2020-ds-Project02-Kickstarter
 
 # Table of Contents
-
-
+Y. Introduction
+Z. Data
+x. Future Work / Outlook
 
 # Introduction
 

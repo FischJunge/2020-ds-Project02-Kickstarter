@@ -7,26 +7,24 @@ by Jakolien & Michael
 * **Python script** for generating (takes .csv as argument and saves the model locally)  and running your model from the terminal (takes test.csv and model as arguments and outputs accuracy and predictions as .csv). 
 
 ## Things to Think About
-1. Check for data imbalance! 
+1. Check for data imbalance!
 2. What would be the right performance metric - precision, recall, accuracy, F1 score, or something else? (Check TPR?)
 3. Try different (at least 3) machine learning algorithms to check which performs best on the problem at hand.
 
 ## Time Line
 
-### Start: Friday, 30/10/2020, 10:00am
-
+### **Start: Friday, 30/10/2020, 10:00am**
 Task | Task owner | Status
 ---- | ---------- | ------
 Preparing data sets | J & M | Done
 Understanding columns | J & M | Done
-Gather domain knowledge (How does Kickstarter work?) | J & M | Done
+Gather domain knowledge <br/>(How does Kickstarter work?) | J & M | Done
 Brainstorming on business (use-)case | J & M | Done
 
 ### Weekend
-
 Task | Task owner | Status
 ---- | ---------- | ------
-Start data cleaning | J | WIP
+Start data cleaning | J | Done
 Gather domain knowledge & Look for missing column descriptions | M | Done
 
 ### Monday
@@ -34,13 +32,13 @@ Task | Task owner | Status
 ---- | ---------- | ------
 Initial data cleaning | J | Done
 Initial EDA | M | WIP
-Finalize business (use-)case (e.g. stakeholder, what to predict, scenarios, select the evaluation metrics) | J & M | WIP
+Finalize business (use-)case<br/>(e.g. stakeholder, what to predict, scenarios, select the evaluation metrics) | J & M | Done
 Final data cleaning | J | WIP
-Finalize full EDA | J | -
 
 ### Tuesday
 Task | Task owner | Status
 ---- | ---------- | ------
+Finalize full EDA | J & M | -
 Set up model | - | -
 Fianalize model | - | -
 
@@ -51,7 +49,7 @@ Presentation | - | -
 Python script | - | -
 Tidy up Jup NB | - |
 Finalize deliverables | - | -
-* End: Thursday, 05/11/2020, 09:00am
+### **End: Thursday, 05/11/2020, 09:00am**
 
 ## Way of Working
 
@@ -60,11 +58,14 @@ Finalize deliverables | - | -
 * Do not work in the same file at the same time
 * Work in an econimic way ('How much is the answere worth?')
 
-## Brainstorming
+## Brainstorming - Scenario Description
 
-What to predict? | State (Success or Failure)
-Stakeholder perspective | Kickstarter
-Business case | People are willing to pay money for the knowledge if they succeed or fail with their project idea.
+* What to predict?
+    * State (success or failure)<br/>
+* Stakeholder perspective?
+    * Kickstarter Management
+* Business case
+    * People are willing to pay money for the knowledge if they succeed or fail with their project idea.
 
 * State --> Classification problem
 * Financial gain & extra --> Regression problem
@@ -77,3 +78,21 @@ Business case | People are willing to pay money for the knowledge if they succee
 * How much is it worth?
     * Financially evaluate the difference between sccueeding and failing projects per domain
     * Extra: Predictions for projects which are currently running.
+
+## Model Evaluation - Performance Metric
+1. F1-Score --> Balance between precision and recall
+2. ROC-Curve --> Shows the separation of positive and negative events
+
+## Applied ML-Algorithms (at least 3)
+1. 
+2. 
+3. 
+4. 
+
+## Tips from Tereza
+* Plan 1d to prepare the presentation
+* Work with buffers
+* Way of working within the project is a simulation of a real DS Project
+* Set Deadlines
+* **GOAL:** Have a presentation
+* Live the stakeholder
