@@ -26,45 +26,45 @@ As of December 2019, Kickstarter has received more than $4.6 billion in pledges 
 
 ## Data Description
 
-Column | Description | Drop
------- | ------ | ------
-'backers_count' | Number of backers | 
-'blurb' | Project summary |
-'category' | Category | 
-'converted_pledged_amount' | Pledged amount converted to 'USD' | !
-'country' | Country of origin of the project | 
-'created_at' | Date project created on Kickstarter | 
-'creator' | Person created the project | x
-'currency' | Currency used to support (defined by project owner) | ???
-'currency_symbol' | Symbol of currency | x
-'currency_trailing_code' | Currency code 'USD', 'EUR' etc. | x
-'current_currency' | ???  ??? | 
-'deadline' | Deadline for crowdfunding | 
-'disable_communication' | Enable or Disable communication options | x
-'friends' | 'Empty' | x
-'fx_rate' | Exchange rate from currency to 'USD' | 
-'goal' | Fundraising goal | 
-'id' | Internal Kickstarter ID | 
-'is_backing' | Creator of the project is also backing other projects ??? | x (doesn't contain infos)
-'is_starrable' | ??? | x
-'is_starred' | ??? | x
-'launched_at' | Date launched on Kickstarter | 
-'location' | Location of the project creator | 
-'name' | Project name | 
-'permissions' | ??? | x (empty)
-'photo' | Picture of the product | x
-'pledged' | Amount pledged by the crowd (in target 'currency') | !
-'profile' | Profile of project creator ??? | x
-'slug' | ??? | x (redundant to project name)
-'source_url' | Url ??? | x
-'spotlight' | Boolean value ??? | x
-'staff_pick' | Boolean value ??? | x
-'state' | Current status the project is in (e.g. successful, failed, live, cancelled, undefined and suspended) | !
-'state_changed_at' | Date condition changed ??? | 
-'static_usd_rate' | Exchange rate used to convert pledged to usd_pledged | 
-'urls' | Urls of the project ??? | x
-'usd_pledged' | Amount of money pledged in 'USD' (pledged * static_usd_rate) | !
-'usd_type' | Local or international 'USD' --> Money exchanged or not ??? | x
+Column | Description | Drop | Feature
+------ | ------ | ------ | ------
+'backers_count' | Number of backers | - | No
+'blurb' | Project summary | - | Yes
+'category' | Category | - | Yes
+'converted_pledged_amount' | Pledged amount converted to 'USD' | ! | No
+'country' | Country of origin of the project | - | Yes
+'created_at' | Date project created on Kickstarter | - | Yes
+'creator' | Person created the project | x | Yes
+'currency' | Currency used to support (defined by project owner) | ??? | Yes
+'currency_symbol' | Symbol of currency | x | -
+'currency_trailing_code' | Currency code 'USD', 'EUR' etc. | x | -
+'current_currency' | ??? | - | -
+'deadline' | Deadline for crowdfunding | - | Yes
+'disable_communication' | Enable or Disable communication options | x | -
+'friends' | 'Empty' | x | -
+'fx_rate' | Exchange rate from currency to 'USD' | - | -
+'goal' | Fundraising goal | - | Yes
+'id' | Internal Kickstarter ID | - | Yes
+'is_backing' | Creator of the project is also backing other projects ??? | x (doesn't contain infos) | -
+'is_starrable' | ??? | x | No
+'is_starred' | ??? | x | No
+'launched_at' | Date launched on Kickstarter | - | Yes
+'location' | Location of the project creator | - | Yes
+'name' | Project name | - | Yes
+'permissions' | ??? | x (empty) | -
+'photo' | Picture of the product | x | -
+'pledged' | Amount pledged by the crowd (in target 'currency') | ! | No!
+'profile' | Profile of project creator ??? | x | -
+'slug' | ??? | x (redundant to project name) | Yes
+'source_url' | Url ??? | x | -
+'spotlight' | Boolean value ??? | x | -
+'staff_pick' | Boolean value ??? | x | -
+'state' | Current status the project is in (e.g. successful, failed, live, cancelled, undefined and suspended) | ! | No
+'state_changed_at' | Date condition changed ??? | - | No
+'static_usd_rate' | Exchange rate used to convert pledged to usd_pledged | - | No
+'urls' | Urls of the project ??? | x | -
+'usd_pledged' | Amount of money pledged in 'USD' (pledged * static_usd_rate) | ! | No!
+'usd_type' | Local or international 'USD' --> Money exchanged or not ??? | x | -
 
 # Technologies
 ## Libraries Used
