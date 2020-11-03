@@ -31,9 +31,9 @@ Gather domain knowledge & Look for missing column descriptions | M | Done
 Task | Task owner | Status
 ---- | ---------- | ------
 Initial data cleaning | J | Done
-Initial EDA | M | WIP
+Initial EDA | M | Done
 Finalize business (use-)case<br/>(e.g. stakeholder, what to predict, scenarios, select the evaluation metrics) | J & M | Done
-Final data cleaning | J | WIP
+Final data cleaning | J | Done
 
 ### Tuesday
 Task | Task owner | Status
