@@ -12,7 +12,7 @@ dependencies:
   - bokeh=2.2.3=py38_0
   - brotlipy=0.7.0=py38haf1e3a3_1000
   - ca-certificates=2020.10.14=0
-  - certifi=2020.6.20=py38hecd8cb5_2
+  - certifi=2020.6.20=pyhd3eb1b0_3
   - cffi=1.14.3=py38hed5b41f_0
   - chardet=3.0.4=py38_1003
   - cryptography=3.1.1=py38hddc9c9b_0
@@ -75,6 +75,7 @@ dependencies:
   - pandoc=2.11=h0dc7051_0
   - pandocfilters=1.4.2=py38_1
   - parso=0.7.0=py_0
+  - patsy=0.5.1=py38_0
   - pexpect=4.8.0=py38_1
   - pickleshare=0.7.5=py38_1001
   - pillow=8.0.1=py38h5270095_0
@@ -105,6 +106,7 @@ dependencies:
   - setuptools=50.3.0=py38h0dc7051_1
   - six=1.15.0=py_0
   - sqlite=3.33.0=hffcf06c_0
+  - statsmodels=0.12.0=py38haf1e3a3_0
   - terminado=0.9.1=py38_0
   - testpath=0.4.4=py_0
   - threadpoolctl=2.1.0=pyh5ca1d4c_0

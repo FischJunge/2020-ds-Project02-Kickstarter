@@ -77,7 +77,7 @@ conda install -n kickstarter seaborn<br/>
 conda install -n kickstarter scikit-learn<br/>
 conda install -n kickstarter numpy<br/>
 conda install -n kickstarter pandas<br/>
-conda install -n kickstarter statsmodel<br/>
+conda install -n kickstarter statsmodels<br/>
 conda install -n kickstarter sklearn<br/>
 conda install -n kickstarter bokeh<br/>
 conda list --> 'Shows all packages installed'<br/>
