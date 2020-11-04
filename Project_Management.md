@@ -39,8 +39,8 @@ Final data cleaning | J | Done
 Task | Task owner | Status
 ---- | ---------- | ------
 Finalize full EDA | J & M | -
-Set up model | - | -
-Fianalize model | - | -
+Set up model | J & M | Done
+Fianalize model | J & M | -
 
 ### Wednesday
 Task | Task owner | Status

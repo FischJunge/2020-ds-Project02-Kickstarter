@@ -13,6 +13,8 @@ Kickstarter to initialize the fundraising process. People can support individual
 As of December 2019, Kickstarter has received more than $4.6 billion in pledges from 17.2 million backers to fund 445,000 projects, such as films, music, stage shows, comics, journalism, video games, technology, publishing, and food-related projects.<br/><br/>
 **Source:** https://en.wikipedia.org/wiki/Kickstarter
 
+## Scenario Description
+
 ## The Project's Aim
 
 
@@ -20,9 +22,8 @@ As of December 2019, Kickstarter has received more than $4.6 billion in pledges 
 
 
 # Data
-## Source
-* Url:
-## Description - Initial Data
+**Source-Url:** https://webrobots.io/kickstarter-datasets/ <br/>
+## Description - Initial Data Set
 
 Column | Description | Drop? | Feature
 ------ | ------ | ------ | ------
@@ -64,7 +65,7 @@ Column | Description | Drop? | Feature
 'usd_pledged' | Amount of money pledged in 'USD' (pledged * static_usd_rate) | ! | No!
 'usd_type' | Local or international 'USD'<br/>--> Money exchanged or not (???) | Yes | -
 
-## Description - Cleaned Data
+## Description - Cleaned Data Set
 
 # Technologies
 ## Libraries Used
@@ -81,4 +82,4 @@ conda install -n kickstarter sklearn<br/>
 conda install -n kickstarter bokeh<br/>
 conda list --> 'Shows all packages installed'<br/>
 
-## 
+## Install Environment
