@@ -38,28 +38,27 @@ Final data cleaning | J | Done
 ### Tuesday
 Task | Task owner | Status
 ---- | ---------- | ------
-Finalize full EDA | J & M | -
+Finalize full EDA | J & M | Done
 Set up model | J & M | Done
-Fianalize model | J & M | -
+Fianalize model | J & M | Done
 
 ### Wednesday
 Task | Task owner | Status
 ---- | ---------- | ------
-Presentation | - | - 
-Python script | - | -
-Tidy up Jup NB | - |
-Finalize deliverables | - | -
+Presentation | M | Done
+Python script | J | WIP
+Tidy up Jup NB | J & M | Done
+Finalize deliverables | J & M | WIP
+
 ### **End: Thursday, 05/11/2020, 09:00am**
 
 ## Way of Working
-
 * Working on GitHub-Repo
 * Create and work within branches to fullfil tasks (e.g. initial EDA)
 * Do not work in the same file at the same time
 * Work in an econimic way ('How much is the answere worth?')
 
 ## Brainstorming - Scenario Description
-
 * What to predict?
     * State (success or failure)<br/>
 * Stakeholder perspective?
@@ -71,7 +70,6 @@ Finalize deliverables | - | -
 * Financial gain & extra --> Regression problem
 
 ### Raw Idea
-
 * Perspective: Financial gain for Kickstarter (KS)
 * Before starting a project on KS people want to know how likely it is that the project idea succeeds.
 * They might be willing to pay for that knowledge.
